@@ -1,0 +1,14 @@
+.foot{
+    color: brown;
+    text-align: center;
+    background-color: rgba(235, 220, 105, 0.2);
+    height: 40px;
+    padding-top: 20px;
+}
+.food{
+    text-decoration: underline;
+}
+.food:hover{
+    color: brown;
+    text-decoration: none;
+}

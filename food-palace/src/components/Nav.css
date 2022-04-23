@@ -1,62 +1,83 @@
-.Header{
-   
-    position: fixed;
-    width: 100%;
-    padding: 50px 0;
-    z-index: 100;
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ a:hover{
+    color: black;
 }
 .palaceTitle{
     color: orange;
+    font-weight: 700;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    text-align: start;
 }
 
 a{
     text-decoration: none;
+
 }
 
 .HeaderGroup{
-    padding: 10px;
-    max-width: 800px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(5, auto);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    
+}
+.HeaderLeft{
+    flex:1;
+    display: flex; 
+    align-items: center;
+}
+.HeaderRight{
+    flex:1; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 50px 0 0;
 }
 
-.Header a{
-color: white;
-font-weight: 700; 
-}
+ a{
+color: blue;
+font-weight: 700;
+ }
 
-.Header button {
-    padding: 8px 20px;
-    font-size: 20px;
-    background: #56ccf2;
-    font-weight: 700;
-    border: none;
-    border-radius: 10px;
-    outline: none;
-    cursor: pointer;
-    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
-}
 
 /* for animating the button  */
-.Header button:hover {
-    background: white;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
-transform: translate(-3px);
-}
+
 
 @media (max-width: 640px) {
     .Header {
        padding: 15px 0; 
        /* width: 20px; */
         }
-
         .HeaderGroup{
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center
+        }
+        a{
+           padding-left: 5px;
+            color: blue;
+            font-weight: 700;
+             }
+
+        /* .HeaderGroup{
            grid-template-columns: repeat(4, auto); 
-            }
+            } */
 
             .Header a:nth-child(4){
                 display: none;
                 }
+                .palaceTitle{
+                    color: orange;
+                    font-weight: 400;
+                    font-size: 2rem;
+                    font-family: sans-serif;
+                    text-align: start;
+                }
+
+                
 }
