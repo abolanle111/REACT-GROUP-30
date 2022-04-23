@@ -1,0 +1,11 @@
+.foot{
+    color: brown;
+    text-align: center;
+}
+.food{
+    text-decoration: underline;
+}
+.food:hover{
+    color: brown;
+    text-decoration: none;
+}
