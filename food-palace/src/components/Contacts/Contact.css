@@ -1,0 +1,126 @@
+.Contact {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgoldenrodyellow;
+    align-items: center;
+    justify-content: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffa500;
+}
+
+form {
+   width: 70%;
+   height: 70%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around; 
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    background-color:  rgba(235, 220, 105, 0.2);
+    
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color:  rgba(235, 220, 105, 0.2);
+    color: black;
+     
+}
+
+.btn {
+    width: 500px;
+    height: 30px;
+    color: white;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color:  rgba(235, 220, 105, 0.2);; 
+    color: #ffa500;
+  }
+
+  @media ( max-width: 920px ) {
+    .Contact {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        background-color:  lightgoldenrodyellow;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #ffa500;
+    }
+
+    form {
+        width: 150%;
+        height: 150%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around; 
+     }
+
+     input {
+        width: 300px;
+        height: 50px;
+        font-size: 14px;
+        font-weight: 700;
+        color: black;
+        background-color:  rgba(235, 220, 105, 0.2);
+        
+    }
+
+     textarea {
+        width: 300px;
+        height: 200px;
+        font-size: 14px;
+        font-weight: 700;
+        background-color:  rgba(235, 220, 105, 0.2);
+        color: black;
+         
+    }
+
+    .btn {
+        width: 300px;
+        height: 30px;
+        color: white;
+        background-color: #ffa500;
+        border: none;
+        border-radius: 10px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: cornsilk; 
+        color: #ffa500;
+        cursor: pointer;
+      }
+  }
