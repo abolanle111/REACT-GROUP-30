@@ -4,9 +4,6 @@ import './Contacts/Contact.css'
 function Contact() {
   return (
     <div className='Contact'>
-      <div className='header'>
-        <h1 className='head'>Get in Touch</h1>
-      </div>
       <form>
         <input type="text" placeholder='Your Name' name='Your Name' />
         <input type="email" placeholder='Your Email' name='Your Email' />

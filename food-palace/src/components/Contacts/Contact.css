@@ -27,8 +27,8 @@ form {
 input {
     width: 500px;
     height: 30px;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
+    margin-top: 0.1%;
+    margin-bottom: 0.1%;
     font-size: 14px;
     font-weight: 700;
     color: black;
@@ -37,7 +37,7 @@ input {
 }
 
 textarea {
-    margin-top: 0.5%;
+    margin-top: 0.1%;
     width: 500px;
     height: 200px;
     font-size: 14px;
@@ -48,7 +48,7 @@ textarea {
 }
 
 .btn {
-    margin-top: 0.5%;
+    margin-top: 0.1%;
     width: 500px;
     height: 30px;
     color: white;
