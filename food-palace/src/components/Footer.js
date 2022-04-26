@@ -1,8 +1,14 @@
 import React from 'react'
+import './Footer.css'
 
 function Footer() {
   return (
-    <div></div>
+    <footer>
+    <div className='foot'>
+      Copyright &copy; 2022| Powered by <b className='food'>Food Palace</b> 
+    </div>
+
+    </footer>
   )
 }
 
