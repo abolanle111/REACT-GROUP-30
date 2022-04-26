@@ -27,6 +27,8 @@ form {
 input {
     width: 500px;
     height: 30px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
     font-size: 14px;
     font-weight: 700;
     color: black;
@@ -35,6 +37,7 @@ input {
 }
 
 textarea {
+    margin-top: 0.5%;
     width: 500px;
     height: 200px;
     font-size: 14px;
@@ -45,6 +48,7 @@ textarea {
 }
 
 .btn {
+    margin-top: 0.5%;
     width: 500px;
     height: 30px;
     color: white;
@@ -53,6 +57,7 @@ textarea {
     border-radius: 10px;
     font-weight: 700;
     cursor: pointer;
+    
 }
 
 .btn:hover {
@@ -62,7 +67,7 @@ textarea {
 
   @media ( max-width: 920px ) {
     .Contact {
-        height: 70vh;
+        height: 80vh;
         display: flex;
         flex-direction: column;
         background-color:  lightgoldenrodyellow;
