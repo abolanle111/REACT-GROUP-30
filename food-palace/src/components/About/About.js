@@ -1,17 +1,17 @@
 import React from "react";
-import "../About.css";
+import "../About/About.css";
 
 function About() {
   return (
     <>
-      <header className="header container">
+      <header className="about-header">
         <div className="about">
           <h1>About</h1>
         </div>
       </header>
 
       <main>
-        <section className="flex container">
+        <section className="flex">
           <div className="image1"></div>
           <div className="about-info">
             <h2>
@@ -26,7 +26,7 @@ function About() {
             <button>Explore Our Tray</button>
           </div>
         </section>
-        <section className="flex flex-reverse container">
+        <section className="flex flex-reverse">
           <div className="image2"></div>
           <div className="about-info">
             <h2>

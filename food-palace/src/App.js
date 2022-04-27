@@ -1,25 +1,22 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from "./components/About";
-import Home from "./components/Home";
-import Contact from "./components/Contact";
-import Products from "./components/Products";
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Contact from "./components/Contacts/Contact";
+import Products from "./components/Product/Products";
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <BrowserRouter>
-      <Nav />
-      <Routes>
-        <Route path="/" exact index element={<Home />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="products" element={<Products />} />
-        <Route path="about" element={<About />} />
-      </Routes>
-
-
-      { <Footer/> }
+      <Layout>
+        <Routes>
+          <Route path="/" exact index element={<Home />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="products" element={<Products />} />
+          <Route path="about" element={<About />} />
+        </Routes>
+      </Layout>
     </BrowserRouter>
   );
 }

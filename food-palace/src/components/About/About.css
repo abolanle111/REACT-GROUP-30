@@ -2,7 +2,7 @@ img {
   max-width: 100%;
 }
 
-.header {
+.about-header {
   min-height: 300px;
   background-image: url("./images/foodImage.jpg");
   background-position: center;
@@ -13,14 +13,8 @@ img {
   justify-content: center;
 }
 
-.container {
-  max-width: 1200px;
-  margin: auto;
-  width: 90%;
-}
-
 .about h1 {
-  font-size: 6rem;
+  font-size: 8rem;
   color: orange;
   font-weight: 900;
   letter-spacing: 0.5rem;
@@ -30,8 +24,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin: 20rem 0;
 }
 
 .flex-reverse {
@@ -60,15 +53,16 @@ img {
 }
 
 .about-info h2 {
-  margin-top: 0;
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
 }
 
 .about-info button {
-  padding: 1rem 3rem;
+  padding: 1.8rem 0;
+  width: 250px;
   background-color: orange;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 600;
   cursor: pointer;
   color: white;
@@ -76,12 +70,19 @@ img {
   margin-top: 3rem;
 }
 
-@media screen and (max-width: 600px) {
-  .container {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+@media screen and (max-width: 700px) {
+  .about-header {
+    margin-top: 4rem;
   }
+
+  .flex {
+    margin-top: 10rem;
+  }
+
+  .about-info p {
+    text-align: center;
+  }
+
   .about h1 {
     font-size: 3rem;
   }
@@ -97,6 +98,8 @@ img {
 
   .about-info {
     width: 100%;
+    display: grid;
+    place-items: center;
   }
 
   .about-info h2 {
@@ -106,7 +109,7 @@ img {
   }
 
   .about-info button {
-    width: 100%;
+    width: 250px;
   }
 }
 
