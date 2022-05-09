@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Routes>
-          {/* ok */}
+          
           <Route path="/" exact index element={<Home />} />
           <Route path="contact" element={<Contact />} />
           <Route path="products" element={<Products />} />
